@@ -81,14 +81,20 @@ while (ProgramRunning)
         {
             Clue($"The correct number is higher than {UserGuess}.");
             TurnIndicator(Gamemode, VersusActive);
+            if(minValue < UserGuess)
+            {
             minValue = UserGuess;
+            }
             UserGuess = GuessFromUserOrComputer(Gamemode, UserGuess, minValue, maxValue);
         }
         else if (UserGuess > CorrectNumber)
         {
             Clue($"The correct number is less than {UserGuess}.");
             TurnIndicator(Gamemode, VersusActive);
+            if(maxValue > UserGuess)
+            {
             maxValue = UserGuess;
+            }
             UserGuess = GuessFromUserOrComputer(Gamemode, UserGuess, minValue, maxValue);
         }
         else if (UserGuess == CorrectNumber)
