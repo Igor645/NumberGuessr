@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v6QITfvf6dq2VduUlSwqPifx58TxNTX1q0j6mUVvZtR8d4VQBvJdRem4HjX95JneQGHo+9tJBSdPZz1dsB3TyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Igor Martic\\source\\repos\\GuessingGame\\GuessingGame\\GuessingGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Igor Martic\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Igor Martic\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Igor Martic\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
